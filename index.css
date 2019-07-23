@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*.container {}
+
+div:not(.container) {
+    width: 40%;
+    height: 50%;
+    background: red;
+    font-size: 50px;
+    float: left;
+    color: aliceblue;
+    margin: 10px;
+}
+
+div:first-child:not(.container) {
+    width: 70%;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+section {
+    height: 20px;
+    background: gray;
+}*/
+
+img {
+    background: red;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.imgone {
+    background: red;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+hr {
+    margin: 20px;
+}
+
+p::after {
+    content: "";
+    clear: both;
+}
