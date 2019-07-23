@@ -54,3 +54,23 @@ p::after {
     content: "";
     clear: both;
 }
+
+body {
+    height: 400vh;
+}
+
+header {
+    height: 200px;
+    background: yellow;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+}
+
+section {
+    padding: 100px;
+}
+
+.p1 {
+    background: gray;
+}
