@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 
 /*.container {}
@@ -30,7 +30,7 @@ div:first-child:not(.container) {
 section {
     height: 20px;
     background: gray;
-}*/
+}
 
 img {
     background: red;
@@ -73,4 +73,49 @@ section {
 
 .p1 {
     background: gray;
+}*/
+
+body {
+    height: 200vh;
+}
+
+
+/* .wrapper {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: green;
+    top: 10px;
+    left: 0px;
+} */
+
+
+/* .container {
+    position: relative;
+    background: tan;
+    height: 20px;
+}
+
+.container::after {
+    content "";
+} */
+
+.wrapper>button {
+    content: "x";
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 0px;
+}
+
+.wrapper {
+    width: 200px;
+    font-size: 50px;
+    padding: 20px;
+    border: 1px solid;
+    position: relative;
+}
+
+button {
+    opacity: 0.5;
 }
